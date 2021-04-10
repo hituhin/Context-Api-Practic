@@ -7,7 +7,9 @@ const Headar = (props) => {
   return (
     <div>
       <h2>It's Your Header Section:{category}</h2>
-      <button onClick={() => setCategory(category + 1)}>Incrise</button>
+      <button onClick={() => setCategory("Laptop")}>Laptop</button>
+      <button onClick={() => setCategory("Camera")}>Camera</button>
+      <button onClick={() => setCategory("Phone")}>Phone</button>
     </div>
   );
 };

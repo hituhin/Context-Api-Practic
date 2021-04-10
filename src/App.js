@@ -7,7 +7,7 @@ import Shipment from "./Component/Shipment/Shipment";
 export const categoryContext = createContext();
 
 function App() {
-  const [category, setCategory] = useState(0);
+  const [category, setCategory] = useState("laptop");
   return (
     <categoryContext.Provider value={[category, setCategory]}>
       <Home />
